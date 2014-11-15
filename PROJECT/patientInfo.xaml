@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="WpfApplication1.patientInfo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="423" d:DesignWidth="300">
+    <Grid Height="374">
+        <Label Content="firstName" Height="28" HorizontalAlignment="Left" Margin="28,35,0,0" Name="lblFirstName" VerticalAlignment="Top" />
+        <Label Content="lastName" Height="28" HorizontalAlignment="Left" Margin="28,69,0,0" Name="lblLastName" VerticalAlignment="Top" />
+        <ScrollViewer Height="172" HorizontalAlignment="Left" Margin="12,103,0,0" Name="scrollViewer1" VerticalAlignment="Top" Width="266" />
+        <Button Content="MENU" Height="23" HorizontalAlignment="Left" Margin="122,313,0,0" Name="menuBtn" VerticalAlignment="Top" Width="75" />
+        <Button Content="EDIT" Height="23" HorizontalAlignment="Right" Margin="0,313,22,0" Name="editbtn" VerticalAlignment="Top" Width="75" />
+        <Button Content="QUIT" Height="23" HorizontalAlignment="Left" Margin="12,313,0,0" Name="exitBtn" VerticalAlignment="Top" Width="75" />
+        <Image Height="70" HorizontalAlignment="Left" Margin="159,12,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="106" />
+    </Grid>
+</UserControl>
