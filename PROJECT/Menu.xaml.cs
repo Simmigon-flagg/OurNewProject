@@ -19,6 +19,7 @@ namespace WpfApplication1
     /// </summary>.
     public partial class Menu : Window
     {
+        //Simmigon Flagg
         addPatient UCadd = new addPatient();
         patientInfo UCInfo = new patientInfo();
         searchControl UCsearch = new searchControl();
